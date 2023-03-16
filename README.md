@@ -108,7 +108,7 @@
 
 - Clone o projeto.
 - Entre na pasta do projeto e rode "yarn install" (pode usar npm install de acordo com a sua configuração).
-- Rode o comando docker run --name gostack_postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+- Rode o comando docker run --name gostack_postgres -e POSTGRES_PASSWORD=123 -p 5432:5432 -d postgres
 - Crei os bancos rentx e rentxtest.
 - Para subir o container do projeto e do banco rode "docker-compose up".
 - "yarn typeorm migration:run" para rodar as migrations.
